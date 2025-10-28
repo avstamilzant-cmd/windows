@@ -4,6 +4,8 @@ services:
     container_name: windows
     environment:
       VERSION: "11"
+      USERNAME: "DILUBRO"
+      PASSWORD: "DILUBRO"
     devices:
       - /dev/kvm
       - /dev/net/tun
